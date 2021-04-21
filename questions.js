@@ -24,13 +24,13 @@ let questions = [
   },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "Computer trojans are an example of?",
+    answer: "malware",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "malware",
+      "network security devices",
+      "spyware",
+      "computer worms"
     ]
   },
     {
@@ -46,13 +46,24 @@ let questions = [
   },
     {
     numb: 5,
-    question: "What does XML stand for?",
-    answer: "extensible Markup Language",
+    question: "What operating system did Google develop?",
+    answer: "Android",
     options: [
-      "extensible Markup Language",
-      "executable Multiple Language",
-      "extra Multi-Program Language",
-      "examine Multiple Language"
+      "iOS",
+      "Windows",
+      "Android",
+      "BlackBerry OS"
+    ]
+  },
+  {
+    numb: 6,
+    question: "How many computer languages are in use?",
+    answer: "2000",
+    options: [
+      "500",	
+      "2000",
+      "50",
+      "20"
     ]
   },
 ];

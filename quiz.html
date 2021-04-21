@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+	<title>QuizRoom</title>
 
 </head>
 <body>
-	<div class="name"><input type="text" id="myText" class="name1"  placeholder="Enter your name">
-		<button class="name1" onclick="myFunction()">Save</button></div>
+	<div class="name1"> QuizRoom</div>
+	<div class="name">
+		<input type="text" id="myText" class="name1"  placeholder="Name" required> <br>
+		<input type="text" id="myNum" class="name1"  placeholder="Roll Number" required>
+		<button class="name1" onclick="myFunction()">Save</button>
+	</div>
     <!-- start Quiz button -->
     <div class="start_btn"><button>Start Quiz</button></div>
 
@@ -19,8 +24,8 @@
         <div class="info-list">
             <div class="info">1. You will have only <span>15 sec</span>/each question.</div>
             <div class="info">2. Once you select your answer, it can't be undone.</div>
-            <div class="info">3. You can't select any option one time only.</div>
-            <div class="info">4. You'll get points on your correct answers.</div>
+            <div class="info">3. You can select any option once only.</div>
+            <div class="info">4. You'll get points on your correct answers in end.</div>
         </div>
         <div class="buttons">
             <button class="quit">Exit Quiz</button>
